@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+	</head>
+	<body>
+
+		<div class="container">
+				<div class="booklogo">
+					<i class="fas fa-book"> Book Database</i>
+				</div>
+				<strong>Book Name &nbsp;-</strong> <input type="text" id="name"><br>
+				<strong>Book Author - </strong> <input type="text" id="author"><br>
+				<strong>Book Price &nbsp;&nbsp;- </strong> <input type="number" id="price"><br>
+				<button onclick="save()">Save Record</button>
+				<button onclick="removeBook()">Remove All Recored</button><br>
+
+				<table>
+					<thead>
+						<tr>
+							<th>
+								Sr.NO.
+							</th>
+							<th>
+								Book Name
+							</th>
+							<th>
+								Book Author
+							</th>
+							<th>
+								Book Price
+							</th>
+						</tr>
+					</thead>
+
+						<tbody id="table">
+						</tbody>
+				</table>
+				<br>
+				&copy; HiddenJet 2018.
+		</div>
+
+		<script src="script.js"></script>
+				<iframe width="854" height="480" src="https://www.youtube.com/embed/mqc69Hiw3gg" frameborder="  "></iframe>
+		
+	</body>
+</html>
